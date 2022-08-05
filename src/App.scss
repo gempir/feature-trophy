@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=permanent-marker:400);
+@import url(https://fonts.bunny.net/css?family=permanent-marker:400|roboto:400);
 
 .container {
     position: relative;
@@ -64,12 +64,59 @@
     gap: 1rem;
     width: 30rem;
     
+    .upload {
+        width: 100%;
+    }
+
     .title-input {
         font-size: 1.5rem;
         width: 100%;
     }
-    
-    .upload {
+
+    .release-date-input {
         width: 100%;
+    }
+
+    .description-input {
+        width: 100%;
+        height: 12rem;
+    }
+
+    button {
+        width: 4rem;
+        height: 2rem;
+    }
+}
+
+.description-container {
+    position: absolute;
+    top: 100vh;
+    margin-top: 2mm;
+
+    .release {
+        padding: 2mm;
+        padding-top: 0.5mm;
+        text-align: left;
+        font-family: 'Permanent Marker', handwriting;
+        color: #063773;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 2rem;
+        background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=fbba20);
+        font-family: 'Permanent Marker', handwriting;
+        padding: 2mm 5mm;
+        padding-bottom: 4mm;
+        color: white;
+    }
+
+    .description {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        line-height: 1.4;
+        font-size: 1.2rem;
+        padding: 2mm;
+        white-space: pre-line;
     }
 }
