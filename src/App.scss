@@ -6,9 +6,17 @@
     }
 }
 
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20mm;
+}
+
 .container {
     position: relative;
-    border: 1px dashed black;
+    border: 1px dashed rgb(210, 210, 210);
     height: 100mm;
     width: 145mm;
     padding: 1mm;
@@ -97,7 +105,7 @@
 .description-container {
     position: absolute;
     top: 100vh;
-    margin-top: 2mm;
+    margin-top: 22mm;
 
     .release {
         padding: 2mm;
