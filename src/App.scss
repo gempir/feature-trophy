@@ -29,7 +29,7 @@
         .main-image {
             position: relative;
             overflow: hidden;
-            height: 80mm;
+            height: 85mm;
             width: 100%;
     
             img {
@@ -41,7 +41,7 @@
         .title {
             position: absolute;
             right: -10mm;
-            bottom: 25mm;
+            bottom: 15mm;
             transform: scaleX(-1);
             text-align: right;
             font-size: 2rem;
@@ -58,14 +58,14 @@
         }
     
         .banner {
-            height: 20mm;
+            height: 15mm;
             background-color: #063773;
             display: flex;
             align-items: center;
     
             svg {
                 margin-left: 15mm;
-                max-width: 50mm;
+                max-width: 35mm;
             }
         }
     }
