@@ -24,7 +24,7 @@ export function App() {
                 </div>
             </div>
         </div>
-        <div className="config">
+        <div className="config no-print">
             <input className="upload" type={'file'} onChange={(e) => {
                 const files = e.target?.files;
                 if (!files || files?.length === 0) {

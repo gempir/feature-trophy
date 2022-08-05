@@ -1,5 +1,11 @@
 @import url(https://fonts.bunny.net/css?family=permanent-marker:400|roboto:400);
 
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
+
 .container {
     position: relative;
     border: 1px dashed black;
