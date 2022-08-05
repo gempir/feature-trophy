@@ -3,6 +3,8 @@ export function CHECK24() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 155 38"
         xmlSpace="preserve"
+        width={189}
+        height={46}
     >
         <path
             fill="#FFF"
