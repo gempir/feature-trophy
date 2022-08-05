@@ -1,31 +1,58 @@
-.trophy {
+@import url(https://fonts.bunny.net/css?family=permanent-marker:400);
+
+.container {
     position: relative;
     border: 1px dashed black;
     height: 100mm;
     width: 145mm;
     padding: 1mm;
 
-    .main-image {
+
+    .trophy {
         position: relative;
         overflow: hidden;
-        height: 80mm;
-        width: 100%;
-
-        img {
+    
+        .main-image {
+            position: relative;
+            overflow: hidden;
+            height: 80mm;
             width: 100%;
-            height: 100%;
+    
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
-    }
-
-    .banner {
-        height: 20mm;
-        background-color: #063773;
-        display: flex;
-        align-items: center;
-
-        svg {
-            margin-left: 15mm;
-            max-width: 50mm;
+    
+        .title {
+            position: absolute;
+            right: -10mm;
+            bottom: 25mm;
+            transform: scaleX(-1);
+            text-align: right;
+            font-size: 2rem;
+            background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=fbba20);
+            font-family: 'Permanent Marker', handwriting;
+            padding: 2mm 5mm;
+            padding-bottom: 4mm;
+            padding-left: 13mm;
+            color: white;
+    
+            .text {
+                transform: scaleX(-1);
+            }
+        }
+    
+        .banner {
+            height: 20mm;
+            background-color: #063773;
+            display: flex;
+            align-items: center;
+    
+            svg {
+                margin-left: 15mm;
+                max-width: 50mm;
+            }
         }
     }
 }
