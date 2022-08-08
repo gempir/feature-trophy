@@ -45,7 +45,9 @@
             transform: scaleX(-1);
             text-align: right;
             font-size: 2rem;
-            background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=fbba20);
+            background: url("./brush.svg") no-repeat;
+            background-size: cover;
+            background-position: 100%;
             font-family: 'Permanent Marker', handwriting;
             padding: 2mm 5mm;
             padding-bottom: 4mm;
@@ -119,7 +121,9 @@
     .title {
         text-align: center;
         font-size: 2rem;
-        background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=fbba20);
+        background: url("./brush.svg") no-repeat;
+        background-size: cover;
+        background-position: 100%;
         font-family: 'Permanent Marker', handwriting;
         padding: 2mm 5mm;
         padding-bottom: 4mm;
