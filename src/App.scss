@@ -1,4 +1,5 @@
 @import url(https://fonts.bunny.net/css?family=permanent-marker:400|roboto:400);
+@import url('http://fonts.cdnfonts.com/css/hey-august');
 
 @media print {
     .no-print {
@@ -41,17 +42,17 @@
         .title {
             position: absolute;
             right: -10mm;
-            bottom: 18mm;
+            bottom: 20mm;
             transform: scaleX(-1);
             text-align: right;
             font-size: 2rem;
             background: url("./brush.svg") no-repeat;
             background-size: cover;
             background-position: 100%;
-            font-family: 'Permanent Marker', handwriting;
-            padding: 2mm 5mm;
-            padding-bottom: 4mm;
-            padding-left: 13mm;
+            font-family: 'Hey August', handwriting;
+            text-transform: uppercase;
+            padding: 3mm 5mm;
+            padding-left: 12mm;
             color: white;
     
             .text {
@@ -110,11 +111,12 @@
     margin-top: 22mm;
 
     .release {
-        padding: 2mm;
         padding-top: 0.5mm;
         margin-left: 15mm;
         text-align: left;
-        font-family: 'Permanent Marker', handwriting;
+        font-size: 1.5rem;
+        font-family: 'Hey August', handwriting;
+        text-transform: uppercase;
         color: #063773;
     }
 
@@ -124,9 +126,9 @@
         background: url("./brush.svg") no-repeat;
         background-size: cover;
         background-position: 100%;
-        font-family: 'Permanent Marker', handwriting;
-        padding: 2mm 5mm;
-        padding-bottom: 4mm;
+        font-family: 'Hey August', handwriting;
+        text-transform: uppercase;
+        padding: 3mm 5mm;
         color: white;
     }
 
