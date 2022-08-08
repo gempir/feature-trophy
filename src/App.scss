@@ -1,5 +1,16 @@
-@import url(https://fonts.bunny.net/css?family=permanent-marker:400|roboto:400);
-@import url('https://fonts.cdnfonts.com/css/hey-august');
+@font-face {
+    font-family: 'Hey August';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Hey August'), url('./Hey\ August.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Myriad Pro'), url('./MYRIADPRO-COND.woff') format('woff');
+}
 
 @media print {
     .no-print {
@@ -133,10 +144,10 @@
     }
 
     .description {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Myriad Pro', sans-serif;
         color: black;
         line-height: 1.2;
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 2mm;
         white-space: pre-line;
     }
