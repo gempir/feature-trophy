@@ -17,7 +17,7 @@
 .container {
     position: relative;
     border: 1px dashed rgb(210, 210, 210);
-    height: 100mm;
+    height: 102mm;
     width: 145mm;
     padding: 1mm;
 
@@ -41,7 +41,7 @@
         .title {
             position: absolute;
             right: -10mm;
-            bottom: 15mm;
+            bottom: 18mm;
             transform: scaleX(-1);
             text-align: right;
             font-size: 2rem;
@@ -58,7 +58,7 @@
         }
     
         .banner {
-            height: 15mm;
+            height: 17mm;
             background-color: #063773;
             display: flex;
             align-items: center;
@@ -110,6 +110,7 @@
     .release {
         padding: 2mm;
         padding-top: 0.5mm;
+        margin-left: 15mm;
         text-align: left;
         font-family: 'Permanent Marker', handwriting;
         color: #063773;
@@ -128,8 +129,8 @@
     .description {
         font-family: 'Roboto', sans-serif;
         color: black;
-        line-height: 1.4;
-        font-size: 1.2rem;
+        line-height: 1.2;
+        font-size: 1rem;
         padding: 2mm;
         white-space: pre-line;
     }
