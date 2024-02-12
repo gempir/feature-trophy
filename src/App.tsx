@@ -3,7 +3,7 @@ import "./App.scss";
 import { CHECK24 } from "./CHECK24";
 
 export function App() {
-    const [img, setImg] = useState<string>("https://dummyimage.com/1096x604/bbb/fff");
+    const [img, setImg] = useState<string>("https://dummyimage.com/1096x642/bbb/fff");
     const [title, setTitle] = useState<string>("Product Creation Pool");
     const [releaseDate, setReleaseDate] = useState<string>("2022-01-01");
     const [description, setDescription] = useState<string>("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
